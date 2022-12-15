@@ -25,3 +25,4 @@ chrome_options.add_experimental_option("detach", True)
 driver = webdriver.Chrome(options=chrome_options)
 driver.get('https://getintopc.com/softwares/audio-processing/syrinxsamples-cs15d-kontakt-free-download/')
 driver.find_element(By.CLASS_NAME, 'btn').click()
+hi
