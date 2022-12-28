@@ -13,7 +13,7 @@ chrome_options.add_experimental_option("detach", True)
 prefs = {"profile.default_content_setting_values.notifications":2}
 chrome_options.add_experimental_option("prefs",prefs)
 
-#For this project , I am using BBC SPORTS SITE
+#For this project , I am using TheSUN SPORTS SITE
 
 website = "https://www.thesun.co.uk/sport/football/"
 driver = webdriver.Chrome(options=chrome_options)
